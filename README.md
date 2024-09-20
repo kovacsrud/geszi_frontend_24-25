@@ -1,1 +1,1 @@
-# geszi_frontend_24-25
+# Frontend programozás, Gészi esti, 2024-25
