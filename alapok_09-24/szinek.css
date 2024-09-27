@@ -1,0 +1,20 @@
+#root {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.negyzet {
+   width: 80px; 
+   height: 80px;
+   margin: 5px;
+   padding: 3px;
+   background-color: aqua;
+}
+
+#kivalasztott {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    padding: 5px;
+    background-color: blueviolet;
+}
