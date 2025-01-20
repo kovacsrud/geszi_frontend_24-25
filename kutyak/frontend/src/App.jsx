@@ -5,6 +5,7 @@ import Menu from "./components/Menu";
 import Kutyak from "./components/Kutyak";
 import Kutyanevek from "./components/Kutyanevek";
 import Kutyafajtak from "./components/Kutyafajtak";
+import KutyafajtaForm from "./components/KutyafajtaForm";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route path="/kutyak" element={<Kutyak />}/>
             <Route path="/kutyanevek" element={<Kutyanevek />} />
             <Route path="/kutyafajtak" element={<Kutyafajtak />} />
+            <Route path="/ujkutyafajta" element={<KutyafajtaForm />} />
             <Route path="*" element={<Navigate to="/" />} />
         </Routes> 
       </BrowserRouter>

@@ -35,6 +35,11 @@ function Menu() {
                         target="">Rendelési adatok
                     </Link>
                 </li>
+                <li>
+                    <Link to="/ujkutyafajta" className="text-base font-normal text-gray-500 list-none hover:text-gray-900"
+                        target="">Új fajta felvitele
+                    </Link>
+                </li>
             </div>
            
         </nav>
