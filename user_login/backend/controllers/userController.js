@@ -82,7 +82,7 @@ const modifyUser=asyncHandler(async (req,res)=>{
 const vedettFunction=asyncHandler( async (req,res)=>{
     
     const username=req.user.username;
-    res.send("Védett végpont"+username);
+    res.json("Védett végpont"+username);
 
 });
 

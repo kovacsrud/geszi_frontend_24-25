@@ -2,6 +2,8 @@ import Login from "./components/Login";
 import Register from "./components/Register";
 import Menu from "./components/Menu";
 import Main from "./components/Main";
+import { UserProvider } from "./context/UserContext";
+import Vedett from "./components/Vedett";
 
 import {BrowserRouter,Routes,Route,Navigate} from "react-router-dom";
 
@@ -10,17 +12,20 @@ function App() {
 
   return (
    <div>
-     <h1 className="text-3xl text-center text-sky-700 font-bold">React és Tailwind CSS</h1>
+     <UserProvider>
      <BrowserRouter>
       <Menu />
       <Routes>
         <Route path="/" element={<Main />}/>
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />}/>
+        <Route path="/vedett" element={<Vedett />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
      </BrowserRouter>
+     </UserProvider>
    </div>
+   
   )
 }
 
