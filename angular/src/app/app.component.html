@@ -1,0 +1,6 @@
+<app-header [headerSzoveg]="'Input header'" />
+<h1 class="text-3xl font-bold text-center text-sky-500">Angular alapok</h1>
+<h2 class="text-2xl text-center">{{szoveg}} {{szam}}</h2>
+<button (click)="katt()" class="btn btn-primary">Katt</button>
+<app-lista />
+<router-outlet />
