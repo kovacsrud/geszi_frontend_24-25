@@ -1,0 +1,22 @@
+{
+  "name": "nextjs_proba",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "daisyui": "^5.0.9",
+    "next": "15.2.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.17",
+    "tailwindcss": "^4.0.17"
+  }
+}
